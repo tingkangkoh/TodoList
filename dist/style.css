@@ -1,0 +1,179 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin:0;
+    padding:0;
+}
+
+header{
+    text-align:center;
+    /* background-color:#219ebc; */
+    background-color:#023047;
+    padding:25px 0;
+    color:white;
+}
+
+h1{
+    margin:0;
+    padding:0;
+}
+main{
+    display:flex;
+    height:1000px;
+    background-color:#023047;
+    color:white;
+}
+
+.main-left{
+    width:40%;
+    border-right:1px solid white;
+    padding-left:10px;
+    padding-top:10px;
+
+}
+
+.main-center{
+    width:60%;
+    padding-left:20px;
+}
+.main-center p{
+    display:inline;
+}
+.main-right{
+    width:0;
+    border-left:1px solid black;
+}
+
+h2{
+    margin:0;
+    display:inline;
+}
+
+hr{
+    margin:0;
+}
+
+.project-button{
+    width:80%;
+    font-size:20px;
+    font-weight:bold;
+    margin-left:3px;
+}
+
+.todo-button{
+    border:none;
+    background-color:#023047;
+    color:White;
+}
+
+/* .todo-button:hover{
+    background-color:gray;
+} */
+
+.add-todo-box{
+    border:1px solid white;
+    width:80%;
+    padding:10px 20px;
+}
+
+.create-button{
+    text-align:center;
+    color:White;
+    border:1px solid white;
+    margin-right:5px;
+    margin-top:10px;
+}
+
+.cancel-button{
+    text-align:center;
+    color:White;
+    border:1px solid white;
+}
+
+.remove-todo{
+    border:none;
+    background-color:none;
+    position:absolute;
+    right:0px;
+    color:white;
+}
+
+.remove-project{
+    border:none;
+    color:white;
+}
+
+.add-todo{
+    border:1px solid white;
+    color:white;
+    position:relative;
+    left:20px;
+}
+
+.todo-list{
+    position:relative;
+    left:20px;
+    width:90%;
+    padding-left:5px;
+    color:white;
+    margin:5px 0;
+}
+
+.todo-list-red{
+    border:1px solid red;
+}
+
+.todo-list-green{
+    border:1px solid #99d98c;
+}
+button{
+    cursor:pointer;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #023047;
+}
+
+.todo-check{
+    cursor:pointer;
+}
+
+.todo-check-red{
+    color:red;
+}
+.todo-check-green{
+    color:#99d98c;
+}
+
+.todo-outer-div{
+    display:flex;
+    padding:6px 0;
+    margin-top:15px;
+    width:90%;
+}
+
+.edit-button{
+    border:1px solid white;
+    padding:1px;
+    color:white;
+}
+
+.save-button{
+    border:1px solid white;
+    padding:1px;
+    color:white;
+}
+
+.center-buttons{
+    padding:10px;
+    width:10px;
+}
+
+.add-project{
+    margin-top:5px;
+    border:1px solid white;
+    color:white;
+}
+
+
+.add-project-box{
+    border:1px solid white;
+    color:white;
+}
